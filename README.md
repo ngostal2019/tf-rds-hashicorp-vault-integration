@@ -6,7 +6,8 @@ This is a companion repository for the Hashicorp [Manage RDS Instance tutorial](
 It contains Terraform conifguration files for you to use to learn how to provision and manage AWS RDS resources using
 Terraform and read RDS DB credentials from vault.
 
-[!WARNING] If while running the terraform validate command you receive an error related to `enable_classiclink_dns_support` and `enable_classiclink`, just comment all their references with a `#` from the `.terraform` folder module.
+> [!WARNING]
+> If while running the terraform validate command you receive an error related to `enable_classiclink_dns_support` and `enable_classiclink`, just comment all their references with a `#` from the `.terraform` folder module.
 
 ### Useful links
 1. [Managing vault secrets tutorial](https://developer.hashicorp.com/vault/docs/v1.11.x/secrets/kv/kv-v2)
